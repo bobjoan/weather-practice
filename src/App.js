@@ -12,7 +12,7 @@ function App() {
         </a>{" "}
         and is{" "}
         <a
-          href="https://github.com/bobjoan/searchEngine"
+          href="https://github.com/bobjoan/weather-practice"
           target="_blank"
           rel="noreferrer"
         >
