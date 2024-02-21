@@ -5,7 +5,7 @@
   padding: 16px;
   margin: 30px auto;
   border-radius: 4px;
-  width: 60%;
+  width: 40%;
 }
 .Weather form {
   margin-bottom: 20px;
@@ -38,4 +38,9 @@
   font-weight: bold;
   color: #000;
   display: inline;
+}
+.Weather .properties {
+  display: inline;
+  background-color: aqua;
+  margin-top: 20px;
 }

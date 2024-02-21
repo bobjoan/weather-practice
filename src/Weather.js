@@ -17,7 +17,7 @@ export default function Weather(props) {
       city: response.data.name,
       date: new Date(response.data.dt * 1000),
       humidity: response.data.main.humidity,
-      iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}10d@2x.png`,
     });
   }
   function handleSubmit(event) {
@@ -52,6 +52,7 @@ export default function Weather(props) {
               </div>
             </div>
           </form>
+
           <WeatherUpdate info={weatherInfo} />
         </div>
       </div>

@@ -4,11 +4,11 @@ export default function FormattedDate(props) {
   let days = [
     "Sunday",
     "Monday",
-    "Tusday",
-    "Wenesday",
+    "Tuesday",
+    "Wednesday",
     "Thusday",
-    "Friay",
-    "Satrday",
+    "Friday",
+    "Saturday",
   ];
   let day = days[props.date.getDay()];
   let hours = props.date.getHours();
