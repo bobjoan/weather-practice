@@ -20,14 +20,14 @@ export default function Weather(props) {
       iconUrl: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}10d@2x.png`,
     });
   }
-  function handleSubmit(event) {
-    event.preventDefault();
-    search();
-  }
   function search() {
     let apiKey = "502dc8f7ae36e57af1974e18d16a86f8";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
+  }
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
   }
   function updateCity(event) {
     setCity(event.target.value);
@@ -48,7 +48,11 @@ export default function Weather(props) {
                 />
               </div>
               <div className="col-3">
-                <input type="submit" value="Search" />
+                <input
+                  type="submit"
+                  className="btn btn-primary"
+                  value="Search"
+                />
               </div>
             </div>
           </form>
