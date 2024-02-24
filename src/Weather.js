@@ -43,6 +43,7 @@ export default function Weather(props) {
             <div className="row">
               <div className="col-9">
                 <input
+                  className="search"
                   type="search"
                   placeholder="Enter a city"
                   required
@@ -52,7 +53,7 @@ export default function Weather(props) {
               <div className="col-3">
                 <input
                   type="submit"
-                  className="btn btn-primary"
+                  className="btn btn-primary btn-lg"
                   value="Search"
                 />
               </div>
