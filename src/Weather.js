@@ -11,7 +11,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherInfo({
       loader: true,
-      coordinates: response.data.coords,
+      coordinates: response.data.coord,
       description: response.data.weather[0].description,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
