@@ -1,13 +1,15 @@
 .weatherForecast {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-  margin-top: 25px;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 .forecastTemperature-min {
-  margin-left: 5px;
+  margin-left: 3px;
+  font-size: 14px;
 }
+
 .forecastTemperature-max {
   font-weight: bold;
 }

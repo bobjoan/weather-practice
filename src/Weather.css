@@ -1,15 +1,15 @@
 .Weather {
-  margin-bottom: 30%;
-  background-color: #dce3ea;
+  margin-bottom: 5%;
   border: 1px solid #dce3ea;
   color: #878a89;
   font-family: Arial, sans-serif;
   padding: 16px;
-  margin: 30px auto;
+  margin: 3% auto;
   border-radius: 10px;
-  width: 60%;
-  padding-bottom: 25px;
+  width: 90%;
+  max-width: 600px;
 }
+
 .Weather .search {
   width: 100%;
   border-radius: 8px;
@@ -17,47 +17,52 @@
   padding: 12px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .Weather img {
-  height: 70px;
-  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
+
 .Weather canvas {
   margin-left: 10px;
   margin-top: 5px;
   display: inline;
 }
+
 .Weather h1 {
-  margin-top: 30px;
+  margin-top: 20px;
   display: block;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 300;
-  height: 28px;
-  line-height: 29px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .Weather ul {
   margin: 0;
   padding: 0;
 }
+
 .Weather li {
   list-style-type: none;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .Weather .unit {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -30px;
+  top: -20px;
 }
+
 .Weather .temperature {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #000;
   display: inline;
-  line-height: 64px;
+  line-height: 48px;
   margin-left: 10px;
 }
