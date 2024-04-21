@@ -15,17 +15,16 @@
   font-weight: bold;
 }
 
-/* Responsive styles */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .weatherForecast {
-    font-size: 14px; /* Decrease font size for smaller screens */
+    font-size: 14px;
   }
 
   .forecastTemperature-min {
-    font-size: 12px; /* Decrease font size for smaller screens */
+    font-size: 12px;
   }
 
   .forecastTemperature-max {
-    font-size: 14px; /* Decrease font size for smaller screens */
+    font-size: 14px;
   }
 }
