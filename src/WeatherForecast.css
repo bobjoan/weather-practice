@@ -1,3 +1,4 @@
+/* General styles */
 .weatherForecast {
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -12,4 +13,19 @@
 
 .forecastTemperature-max {
   font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .weatherForecast {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .forecastTemperature-min {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+
+  .forecastTemperature-max {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
 }

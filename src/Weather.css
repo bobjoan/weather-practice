@@ -1,3 +1,4 @@
+/* General styles */
 .Weather {
   margin-bottom: 5%;
   border: 1px solid #dce3ea;
@@ -63,6 +64,5 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #000;
   display: inline;
-  line-height: 48px;
-  margin-left: 10px;
+  line-height: 48;
 }
