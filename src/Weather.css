@@ -14,7 +14,7 @@
   width: 100%;
   border-radius: 8px;
   border: none;
-  padding: 12px;
+  padding: 9px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .Weather h1 {
-  margin-top: 20px;
+  margin-top: 16px;
   display: block;
   font-size: 24px;
   font-weight: 300;
@@ -63,5 +63,5 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #000;
   display: inline;
-  line-height: 48;
+  line-height: 48px;
 }
